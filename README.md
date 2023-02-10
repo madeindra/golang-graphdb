@@ -2,7 +2,7 @@
 
 Example of CRUD operation in Golang with Neo4j
 
-## Preparation
+## How to Run
 1. Run Neo4j database
 
 ```
