@@ -45,7 +45,7 @@ func main() {
 		return
 	}
 	if readResult.Next() {
-		fmt.Println("Read node:", readResult.Record().GetByIndex(0).(neo4j.Node).Properties())
+		fmt.Println("Read node:", readResult.Record().GetByIndex(0).(neo4j.Node).Props())
 	} else {
 		fmt.Println("Node not found")
 	}
