@@ -12,7 +12,7 @@ func main() {
 	ctx := context.Background()
 
 	// Connect to Neo4j
-	driver, err := neo4j.NewDriverWithContext("neo4j://localhost:7687", neo4j.BasicAuth("neo4j", "test", ""))
+	driver, err := neo4j.NewDriverWithContext("neo4j://localhost:7687", neo4j.BasicAuth("username", "password", ""))
 	if err != nil {
 		fmt.Println("Error connecting to Neo4j:", err)
 		return
